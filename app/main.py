@@ -14,8 +14,8 @@ class Book(BaseModel):
     rating: Optional[int] = None
 
 
-books = [{"title": "title of post 1", "content": "content of post 1", "id": 1}, 
-        {"title": "favorite foods", "content": "I like pizza", "id" : 2}]
+books = [{"title": "title of book 1", "content": "content of book 1", "id": 1}, 
+        {"title": "Harry Potter", "content": "Magic, wizards", "id" : 2}]
 
 def find_book(id):
     for p in books:
